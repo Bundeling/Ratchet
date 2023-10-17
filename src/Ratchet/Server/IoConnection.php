@@ -22,8 +22,6 @@ class IoConnection implements ConnectionInterface {
     public $PeriodicTimer;
     public $WAMP;
 
-    public $decor;
-
 
     /**
      * @param \React\Socket\ConnectionInterface $conn
